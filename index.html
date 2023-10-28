@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+        <title>Kamrin Hurley Portfolio</title>
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Kamrin Hurley</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="hamburger-nav">
+            <div class="logo">Kamrin Hurley</div>
+            <div class="hamburger-menu">
+              <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+              </div>
+            </div>
+          </nav>
+          <section id="profile">
+            <div class="section__pic-container">
+              <img src="profileImage.jpg" alt="Kamrin Hurley profile picture" />
+            </div>
+            <div class="section__text">
+              <p class="section__text__p1">Hello, I'm</p>
+              <h1 class="title">Kamrin Hurley</h1>
+              <p class="section__text__p2">Software Developer</p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2"
+                  onclick="window.open('2023-2024-resume.pdf')"
+                >
+                  Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                  Contact Info
+                </button>
+              </div>
+              <div id="socials-container">
+                <img
+                  src="linkedinLogo.png"
+                  alt="My LinkedIn profile"
+                  class="icon"
+                  onclick="location.href='https:linkedin.com/in/kamrin-ricker-hurley-bb1436159'"
+                />
+                <img
+                  src="githubIcon.png"
+                  alt="My Github profile"
+                  class="icon"
+                  onclick="location.href='https:github.com/KamH333'"
+                />
+              </div>
+            </div>
+          </section>
+          <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+              <div class="section__pic-container">
+                <img
+                  src="profileImage.jpg"
+                  alt="Profile picture"
+                  class="about-pic"
+                />
+              </div>
+              <div class="about-details-container">
+                <div class="about-containers">
+                  <div class="details-container">
+                    <img
+                      src="experienceIcon.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <h3>Experience</h3>
+                    <p>1+ year <br />Software Development</p>
+                  </div>
+                  <div class="details-container">
+                    <img
+                      src="educationIcon.png"
+                      alt="Education icon"
+                      class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p>Fullstack development bootcamp</p>
+                  </div>
+                </div>
+                <div class="text-container">
+                  <p>
+                    As a self-taught software developer, I have embarked on a journey driven by an undeniable passion for coding and programming. My love for technology led me to explore the world of software development, and I've thrived on the challenges and opportunities it presents.
+
+                    My self-guided education has given me a strong foundation in various programming languages, frameworks, and development methodologies. This journey has shaped not only my technical expertise but also my problem-solving skills, attention to detail, and a determination to keep learning and improving.
+                    
+                    What sets me apart is my commitment to staying at the forefront of the ever-evolving tech industry. I am not satisfied with just keeping up; I aim to push the boundaries of what is possible through innovative solutions and technologies.
+                    
+                    My work ethic, paired with my genuine excitement for coding, has enabled me to tackle complex projects with creativity and precision. 
+                    
+                    I am excited to contribute my self-taught skills, my passion for coding, and my eagerness to learn to any team or project.
+                    
+                    My self-taught journey is an ongoing story of dedication, determination, and a love for coding, and I look forward to the next chapter in my career as a software developer.
+                    
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+            <img
+              src="downArrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#experience'"
+            />
+          </section>
+          <section id="experience">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-container">
+              <div class="about-containers">
+                <div class="details-container">
+                  <h2 class="experience-sub-title">Frontend Development</h2>
+                  <div class="article-container">
+                    <article>
+                      <img
+                        src="htmlIcon.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>HTML</h3>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="cssIcon.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>CSS</h3>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="reactIcon.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>React</h3>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="jsIcon.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>JavaScript</h3>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="dartIcon.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Dart/Flutter</h3>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="details-container">
+                  <h2 class="experience-sub-title">Backend Development</h2>
+                  <div class="article-container">
+                    <article>
+                      <img
+                        src="javaIcon.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Java</h3>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="nodeIcon.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Node JS</h3>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="sql_7506880.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Express JS</h3>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="djangoIcon.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Django</h3>
+                      </div>
+                    </article>
+                    <article>
+                      <img
+                        src="gitIcon.png"
+                        alt="Experience icon"
+                        class="icon"
+                      />
+                      <div>
+                        <h3>Git</h3>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="downArrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#projects'"
+            />
+          </section>
+          <section id="projects">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+              <div class="about-containers">
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="aiGen.png"
+                      alt="AI-Image-Generator"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">AI-Image-Generator</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/KamH333/AI-Image-Generator'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://www.canva.com/design/DAFwln1ezKI/c90IE_VHyGwl4zEtaPLbBA/watch?utm_content=DAFwln1ezKI&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="weatherchecker.png"
+                      alt="Weather Checker"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Weather Checker</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://github.com/KamH333/weatherChecker'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://kamh333.github.io/weatherChecker/'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="tictactoe.png"
+                      alt="Project 3"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Tic Tac Toe</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https:github.com/KamH333/tictactoe'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https:kamh333.github.io/tictactoe/'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img
+              src="downArrow.png"
+              alt="Arrow icon"
+              class="icon arrow"
+              onclick="location.href='./#contact'"
+            />
+          </section>
+          <section id="contact">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                <img
+                  src="gmailIcon.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:examplemail@gmail.com">kodekonnectdev@gmail.com</a></p>
+              </div>
+              <div class="contact-info-container">
+                <img
+                  src="linkedinLogo.png"
+                  alt="LinkedIn icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://linkedin.com/in/kamrin-ricker-hurley-bb1436159">LinkedIn</a></p>
+                <img 
+                  src="Instagram-Icon.png"
+                  alt="Instagram icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://instagram.com/kodekonnect?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr">Instagram</a></p>
+              </div>
+            </div>
+          </section>
+          <footer>
+            <nav>
+              <div class="nav-links-container">
+                <ul class="nav-links">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#experience">Experience</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+            <p>Copyright &#169; 2023 Kamrin Hurley. All Rights Reserved.</p>
+          </footer>
+          <script src="script.js"></script>
+        </body>
+      </html>
