@@ -7,6 +7,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: rgb(37, 248, 206);
 }
 
 html {
@@ -266,6 +267,8 @@ section {
   position: relative;
 }
 
+
+
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
@@ -285,6 +288,7 @@ section {
 .about-pic {
   border-radius: 2rem;
 }
+
 
 .arrow {
   position: absolute;
@@ -428,4 +432,8 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.bio {
+  color: black;
 }
